@@ -11,13 +11,13 @@ import com.educandoweb.course.entities.User;
 import com.educandoweb.course.repositories.UserRepository;
 
 @Configuration
-@Profile("test")
-public class TestConfig implements CommandLineRunner {
+@Profile("test") // Esta anotação especifica que só deve ser usado no perfil de test.
+public class TestConfig implements CommandLineRunner { //Classe auxiliar de configuração
 		
-	@Autowired
+	@Autowired // Esta anotação injeta automaticamente uma instância do UserRepository
 	private UserRepository userRepository;
 
-	@Override
+	@Override // Essa anotação está sobrescrevendo um método da classe pai (superclasse)
 	public void run(String... args) throws Exception {
 		
 		User u1 = new User(null, "Maria Brown", "maria@gmail.com", "988888888", "123456"); 
