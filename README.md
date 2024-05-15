@@ -11,7 +11,6 @@ Além de lançar as compras foi implementado as operações CRUD(create, read, u
 ![Modelo Conceitual](https://github.com/edilson-santiago-da-silva/curso-java/blob/main/curso-java/png/.png)
 
 # Tecnologias utilizadas
-## Back end
 - Java
 - Spring Boot
 - JPA / Hibernate
@@ -19,7 +18,6 @@ Além de lançar as compras foi implementado as operações CRUD(create, read, u
 - H2
 # Como executar o projeto
 
-## Back end
 Pré-requisitos: Java 11
 
 ```bash
